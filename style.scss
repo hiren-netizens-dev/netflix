@@ -23,7 +23,7 @@ $border : #dbdfe2;
 body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: $Montserrat;
+  font-family: $Montserrat; 
   font-display: swap;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -173,7 +173,7 @@ section{
 .product_wrapper{
     margin: 0;
     padding: 0;
-    background: url('/HiNe/images/banner_bg.png') no-repeat center;
+    background: url('https://cdn.jsdelivr.net/gh/NetHir-De/netflix/images/banner_bg.png') no-repeat center;
     background-size: cover;
     @media screen and (max-width:1380px) {
         padding: 60px 0;
@@ -377,7 +377,7 @@ section{
                         font-family:$Montserrat;color: rgba(255, 255, 255, 0.46);
                     }
                     select{
-                        background-image: url('/HiNe/images/dropdown.svg');
+                        background-image: url('https://cdn.jsdelivr.net/gh/NetHir-De/netflix/images/dropdown.svg');
                         background-repeat: no-repeat;
                         background-position: right 20px center;
                         color: rgba(255, 255, 255, 0.46);      
@@ -413,7 +413,7 @@ section{
                                 border:1px solid #707070;                    
                             }
                             &:checked[type=checkbox] {
-                                background: url('/HiNe/images/right.svg') no-repeat;
+                                background: url('https://cdn.jsdelivr.net/gh/NetHir-De/netflix/images/right.svg') no-repeat;
                             }
                         }
                         label{
@@ -482,7 +482,7 @@ section{
                                 content: '';
                                 width: 160px;
                                 height: 3px;
-                                background: url(/HiNe/images/form_border.svg) no-repeat;
+                                background: url(https://cdn.jsdelivr.net/gh/NetHir-De/netflix/images/form_border.svg) no-repeat;
                                 bottom: 0;
                                 left: 50%;
                                 right: auto;
@@ -505,7 +505,7 @@ section{
                             }
                         }
                         select{
-                            background-image: url('/HiNe/images/dropdown.svg');
+                            background-image: url('https://cdn.jsdelivr.net/gh/NetHir-De/netflix/images/dropdown.svg');
                             background-repeat: no-repeat;
                             background-position: right 20px center;
                             cursor: pointer;
@@ -694,7 +694,7 @@ section{
     }
     &.second{
         padding: 100px 0 300px 0;
-        background: url(/HiNe/images/feature_bg.png) no-repeat;
+        background: url(https://cdn.jsdelivr.net/gh/NetHir-De/netflix/images/feature_bg.png) no-repeat;
         background-position: center left;
         @media (min-width:1600px) {
             background-size: 380px 605px;
@@ -718,7 +718,7 @@ section{
                     content: '';
                     width: 160px;
                     height: 3px;
-                    background: url(/HiNe/images/border-title.svg) no-repeat;
+                    background: url(https://cdn.jsdelivr.net/gh/NetHir-De/netflix/images/border-title.svg) no-repeat;
                     bottom: 0;
                     left: 50%;
                     right: auto;
@@ -751,7 +751,7 @@ section{
 
 /* PRICE BLOCK CSS END'S HERE */
 .price_wrapper{
-    background: url('/HiNe/images/price_bg.jpg') no-repeat center;
+    background: url('https://cdn.jsdelivr.net/gh/NetHir-De/netflix/images/price_bg.jpg') no-repeat center;
     background-size: cover;
     height: 1100px;
     position: relative;
@@ -833,7 +833,7 @@ section{
                 content: '';
                 width: 160px;
                 height: 3px;
-                background: url(/HiNe/images/border-title.svg) no-repeat;
+                background: url(https://cdn.jsdelivr.net/gh/NetHir-De/netflix/images/border-title.svg) no-repeat;
                 bottom: 0;
                 left: 50%;
                 right: auto;
@@ -944,7 +944,7 @@ section{
         align-items: center;
     }
     &.second{
-        background: url(/HiNe/images/watch_bg.png) no-repeat;
+        background: url(https://cdn.jsdelivr.net/gh/NetHir-De/netflix/images/watch_bg.png) no-repeat;
         background-position: center right;
         background-size: 330px 600px;
         @media screen and (max-width:1080px) {
