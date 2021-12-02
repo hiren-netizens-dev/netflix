@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Netflix</title>
+	
+	<!--------------- META TAG START HERE --------------->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+	<!--------------- META TAG END'S HERE --------------->
+
+	<!-- FAVICON -->
+	<link href="https://gracious-goldstine-c25752.netlify.app/images/favicon.svg" rel="shortcut icon" type="image/x-icon" />
+
+	<!-- LOCAL STYLE -->
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<header>
+		<!-- TOP BAR PARAGRAPH START HERE -->
+		<div class="topbar">
+			<div class="container">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor augue lacus orci, at parturient. Nullam mattis nibh magna auctor consectetur. Convallis ultrices enim, aliquet turpis. Accumsan sed sed ipsum vel. Ante sit in adipiscing nunc tincidunt. In sit vel, ornare diam faucibus lobortis. Sit velit nisl, nibh at risus, pretium. Augue nisl.</p>
+			</div>
+		</div>
+		<div class="topbar topbar2">
+			<p>
+				<span data-i18n="[html]lp-countdown">Please note! You have limited time:</span><span id="up-comming-time-2">
+				<div class="count"><div id="timer"></div></div>
+				<input type="hidden" value="" id="hiddenTime">
+			</p>
+		</div>
+		<!-- TOP BAR PARAGRAPH END'S HERE -->
+	</header>
+
+	<!-- SECTION START HERE -->
+	<section>
+
+		<!-- PRODUCT BLOCK START HERE -->
+		<div class="product_wrapper">
+			<div class="container">
+				<div class="product_block">
+					<div class="form_wrapper">	
+						<!-- FORM BLOCK START HERE -->
+						<div class="form_block">
+							<form action="#!" method="POST">
+								<div class="row">
+									<div class="col-12">										
+										<div class="title">
+											<label>Fill In Your Information</label>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-6">
+										<!-- FIRST NAME FORM GROUP START -->
+										<div class="form-group">
+											<label for="firstname">First Name</label>
+											<input type="text" name="firstname" placeholder="First Name" class="form-control" required="">
+										</div>
+										<!-- FIRST NAME FORM GROUP END'S -->
+									</div>
+									<div class="col-6">
+										<!-- LAST NAME FORM GROUP START -->
+										<div class="form-group">
+											<label for="lastname">Last Name</label>
+											<input type="text" name="lastname" placeholder="Last Name" class="form-control" required="">
+										</div>
+										<!-- LAST NAME FORM GROUP END'S -->
+									</div>
+								</div>
+								<!-- ADDRESS FORM GROUP START -->
+								<div class="form-group">
+									<label for="address">Address</label>
+									<input type="text" name="address" class="form-control" placeholder="Address" required="">
+								</div>
+								<!-- ADDRESS FORM GROUP END'S -->
+								<div class="row">
+									<div class="col-6">
+										<!-- ZIP CODE FORM GROUP START -->
+										<div class="form-group">
+											<label for="zipcode">Zip Code</label>
+											<input type="text" name="zipcode" class="form-control" placeholder="Zip Code" required="">
+										</div>
+										<!-- ZIP CODE FORM GROUP END'S -->
+									</div>
+									<div class="col-6">
+										<!-- CITY FORM GROUP START -->
+										<div class="form-group">
+											<label for="city">City</label>
+											<input type="text" name="city" class="form-control" placeholder="City" required="">
+										</div>
+										<!-- CITY FORM GROUP END'S -->
+									</div>
+								</div>
+								<!-- STATE FORM GROUP START -->
+								<div class="form-group">
+									<label for="state">State</label>
+									<select class="form-control" name="state" required="" id="select" onchange="myFunction()">
+										<option value="" disabled selected>State</option>
+										<option value="AL">Alabama</option>
+										<option value="AK">Alaska</option>
+										<option value="AZ">Arizona</option>
+										<option value="AR">Arkansas</option>
+										<option value="CA">California</option>
+										<option value="CO">Colorado</option>
+										<option value="CT">Connecticut</option>
+										<option value="DE">Delaware</option>
+										<option value="DC">District of Columbia</option>
+										<option value="FL">Florida</option>
+										<option value="GA">Georgia</option>
+										<option value="HI">Hawaii</option>
+									</select>
+								</div>
+								<!-- STATE FORM GROUP END'S -->
+								<!-- PHONE FORM GROUP START -->
+								<div class="form-group">
+									<label for="phone">Phone</label>
+									<input type="number" name="phone" class="form-control" placeholder="Phone" required="">
+								</div>
+								<!-- PHONE FORM GROUP END'S -->
+								<!-- E-MAIL FORM GROUP START -->
+								<div class="form-group">
+									<label for="email">E-mail</label>
+									<input type="email" name="email" class="form-control" placeholder="E-mail" required="">
+								</div>
+								<!-- E-MAIL FORM GROUP END'S -->
+								<!-- FORM CHECK BOX START -->
+								<div class="form-group">
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required="">
+										<label class="form-check-label" for="flexCheckDefault">
+											I am over 18 years old and accept the <a href="#">terms of Sevices</a>
+										</label>
+									  </div>
+								</div>
+								<!-- FORM CHECK BOX END'S -->
+								<!-- FORM SUBMIT BUTTON START -->
+								<button type="submit" class="btn">Register</button>
+								<!-- FORM SUBMIT BUTTON END'S -->
+							</form>
+						</div>
+						<!-- FORM BLOCK END'S HERE -->
+					</div>
+					<div class="images_wrapper">
+						<h1>Unlimited <br>movies, TV shows and more.</h1>
+						<p>Watch anywhere. Cancel anytime.</p>
+						<div class="price_block">
+							<span>PREMIUM</span>
+							<h2>$13.99</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- PRODUCT BLOCK END'S HERE -->
+
+		<!-- FEATURES SECTION START HERE -->
+		<div class="feature_wrapper">
+			<div class="container">
+				<div class="title">
+					<h2>OUR FEATURE</h2>
+				</div>
+				<div class="feature_block">
+					<div class="border">
+						<div class="feature_wrap">
+							<img src="./HiNe/images/features1.svg" alt="">
+							<h4>Watch Everywhere</h4>
+						</div>
+					</div>
+					<div class="border">
+						<div class="feature_wrap">
+							<img src="./HiNe/images/features2.svg" alt="">
+							<h4>Download & Watch Offline</h4>
+						</div>
+					</div>
+					<div class="border">
+						<div class="feature_wrap">
+							<img src="./HiNe/images/features3.svg" alt="">
+							<h4>Enjoy on your TV.</h4>
+						</div>
+					</div>
+					<div class="border">
+						<div class="feature_wrap">
+							<img src="./HiNe/images/features4.svg" alt="">
+							<h4>Create profiles for children.</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- FEATURES SECTION END'S HERE -->
+
+		<!-- PRICE SECTION START HERE -->
+		<div class="price_wrapper">
+			<div class="container">
+				<img class="top_img" src="./HiNe/images/price1.png" alt="">
+				<div class="title">
+					<h2>get a one year subscription for only $1.65</h2>
+					<p>Get a 1 year Subscription, included in the realDateSearch trial</p>
+				</div>
+			</div>
+		</div>
+		<!-- PRICE SECTION END'S HERE -->
+		
+		<!-- IMAGE_SLIDE START HERE -->
+		<div class="image_slide_wrapper">
+			<div class="container">
+				<div class="img_wrapper">
+					<img class="thumb" src="./HiNe/images/price_sub1.png" alt="">
+					<img class="thumb" src="./HiNe/images/price_sub2.png" alt="">
+					<img class="thumb" src="./HiNe/images/price_sub3.png" alt="">
+					<img class="thumb" src="./HiNe/images/price_sub4.png" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- IMAGE_SLIDE END HERE -->
+
+		<!-- WATCH START HERE -->
+		<div class="watch_wrapper">
+			<div class="container">
+				<div class="watch_main">
+					<div class="left_block">
+						<img class="top_img" src="./HiNe/images/watch_left.png" alt="">
+					</div>
+					<div class="right_block">
+						<div class="title">
+							<h2>Enjoy on your TV.</h2>
+							<p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- WATCH SECTION END'S HERE -->
+
+	</section>
+	<!-- SECTION END'S HERE -->
+
+	<footer>
+		<div class="container">
+			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+			<h4>Affiliate</h4>
+		</div>
+	</footer>
+
+	<script>
+		'use strict';
+		function Tabs() {
+			var bindAll = function() {
+			var menuElements = document.querySelectorAll('[data-tab]');
+			for(var i = 0; i < menuElements.length ; i++) {
+				menuElements[i].addEventListener('click', change, false);
+			}
+		}
+		var clear = function() {
+			var menuElements = document.querySelectorAll('[data-tab]');
+			for(var i = 0; i < menuElements.length ; i++) {
+				menuElements[i].classList.remove('active');
+				var id = menuElements[i].getAttribute('data-tab');
+				document.getElementById(id).classList.remove('active');
+			}
+		}
+		var change = function(e) {
+			clear();
+			e.target.classList.add('active');
+			var id = e.currentTarget.getAttribute('data-tab');
+			document.getElementById(id).classList.add('active');
+		}
+		bindAll();
+		}
+		var connectTabs = new Tabs();
+
+		function myFunction() {
+			var x = document.getElementById("select");
+			x.classList.add("active");
+		}
+
+		/* COUNT DOWN JS START HERE */	
+		window.onload = isTimeSet();	
+		function isTimeSet(){
+			//this function checks if there is a time set
+			if(localStorage.getItem("time") != null){
+				var time = localStorage.getItem("time");
+				document.getElementById("hiddenTime").value = time;
+			}else{
+				document.getElementById("hiddenTime").value = "1800";
+			}
+		}
+		var sec     = document.getElementById("hiddenTime").value,
+		countDiv    = document.getElementById("timer"),
+		secpass,
+		countDown   = setInterval(function () {
+				'use strict';				
+				secpass();
+		}, 1000);
+
+		function secpass() {
+			'use strict';			
+			var min     = Math.floor(sec / 60),remSec  = sec % 60;		
+			if (remSec < 10) {				
+				remSec = '0' + remSec;			
+			}
+			if (min < 10) {				
+				min = '0' + min;			
+			}
+			countDiv.innerHTML = min + ":" + remSec;			
+			if (sec > 0) {				
+				sec = sec - 1;
+				localStorage.setItem("time",sec);
+			} else {				
+				clearInterval(countDown);				
+				countDiv.innerHTML = 'Limit over';
+				localStorage.removeItem("time");				
+			}
+		}
+		/* COUNT DOWN JS END'S HREE */ 
+	</script>
+</body>
+</html>
+
+
